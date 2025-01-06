@@ -1,0 +1,3 @@
+# COBOL Data Truncation Bug
+
+This repository demonstrates a common data truncation error in COBOL programs. The `bug.cob` file contains code that attempts to add a value to a variable with an insufficiently sized PIC clause.  This can lead to unexpected results, including data loss or program crashes.  The `bugSolution.cob` file provides a corrected version of the code, showcasing how to prevent truncation errors.
